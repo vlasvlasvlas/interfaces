@@ -1,183 +1,136 @@
 projects:
-  - slug: shellsynth
-    title: ShellSynth
-    section: core
-    kind: Instrumento
+  - title: ShellSynth
     description: Instrumento web donde la forma dibujada funciona como timbre y gesto sonoro.
+    description_en: Web instrument where the drawn shape works as timbre and sonic gesture.
     repo: https://github.com/vlasvlasvlas/shellsynth
     demo: https://vlasvlasvlas.github.io/shellsynth/
-    tags: [web, audio, forma]
+    image: imgs/shellsynth.png
 
-  - slug: pixelsynth
-    title: PixelSynth
-    section: core
-    kind: Instrumento
+  - title: PixelSynth
     description: Pixel art musical y emulador interactivo de creacion sonora random.
+    description_en: Musical pixel art and interactive random sound creation emulator.
     repo: https://github.com/vlasvlasvlas/pixelsynth
     demo: https://vlasvlasvlas.github.io/pixelsynth/
-    tags: [web, pixel, audio]
+    image: imgs/pixelsynth.png
 
-  - slug: dvdlogosynth
-    title: DVDLogoSynth
-    section: core
-    kind: Instrumento
+  - title: DVDLogoSynth
     description: Logos DVD rebotando como voces visuales y sonoras con color, trayectoria, timbre y drone.
+    description_en: Bouncing DVD logos as visual and sonic voices with color, trajectory, timbre and drone.
     repo: https://github.com/vlasvlasvlas/dvdlogosynth
     demo: https://vlasvlasvlas.github.io/dvdlogosynth/
-    image: https://raw.githubusercontent.com/vlasvlasvlas/dvdlogosynth/main/dvdlogo.png
-    tags: [web, audio, bouncing]
+    image: imgs/dvdlogosynth.png
 
-  - slug: zenonsynth
-    title: ZenonSynth
-    section: core
-    kind: Instrumento
+  - title: ZenonSynth
     description: Instrumento audiovisual basado en la paradoja de Zenon, convergencia asintotica y sintesis modular.
+    description_en: Audiovisual instrument based on Zeno's paradox, asymptotic convergence and modular synthesis.
     repo: https://github.com/vlasvlasvlas/zenonsynth
     demo: https://vlasvlasvlas.github.io/zenonsynth/
-    tags: [web, audio, simulacion]
+    image: imgs/zenonsynth.png
 
-  - slug: weathersynth
-    title: WeatherSynth
-    section: core
-    kind: Instrumento
+  - title: WeatherSynth
     description: Instrumento atmosferico que convierte clima, viento, lluvia, humedad y hora en escena visual-sonora.
+    description_en: Atmospheric instrument that converts weather, wind, rain, humidity and time into a visual-sonic scene.
     repo: https://github.com/vlasvlasvlas/weathersynth
     demo: https://vlasvlasvlas.github.io/weathersynth/
-    tags: [web, clima, audio]
+    image: imgs/weathersynth.png
 
-  - slug: morsimon
-    title: Morsimon
-    section: core
-    kind: Juego
+  - title: Morsimon
     description: Juego interactivo que cruza codigo Morse con la logica del clasico Simon.
+    description_en: Interactive game that crosses Morse code with classic Simon logic.
     repo: https://github.com/vlasvlasvlas/morsimon
     demo: https://vlasvlasvlas.github.io/morsimon/
-    tags: [web, juego, morse]
+    image: imgs/morsimon.png
 
-  - slug: araria
-    title: Araria
-    section: core
-    kind: Experimento
+  - title: Araria
     description: Animacion interactiva con movimiento procedural y audio de horror generado en navegador.
+    description_en: Interactive animation with procedural movement and browser-generated horror audio.
     repo: https://github.com/vlasvlasvlas/araria
     demo: https://vlasvlasvlas.github.io/araria/
-    tags: [web, animacion, audio]
+    image: imgs/araria.png
 
-  - slug: estrellados
-    title: Estrellados
-    section: core
-    kind: Instrumento
+  - title: Estrellados
     description: Cielo visible en tiempo real convertido en partitura performativa con arpegios, drones y estrellas seleccionables.
+    description_en: Real-time visible sky turned into a performative score with arpeggios, drones and selectable stars.
     repo: https://github.com/vlasvlasvlas/estrellados
     demo: https://vlasvlasvlas.github.io/estrellados/
-    tags: [web, cielo, audio]
+    image: imgs/estrellados.png
 
-  - slug: trenfase
-    title: Trenfase
-    section: core
-    kind: Secuenciador
+  - title: Trenfase
     description: Secuenciador audiovisual interactivo inspirado en la Yamanote Line de Tokio.
+    description_en: Interactive audiovisual sequencer inspired by Tokyo's Yamanote Line.
     repo: https://github.com/vlasvlasvlas/trenfase
     demo: https://vlasvlasvlas.github.io/trenfase/
-    tags: [web, secuenciador, audio]
+    image: imgs/trenfase.jpg
 
-  - slug: botonera
-    title: Botonera
-    section: core
-    kind: Sampler
+  - title: Botonera
     description: Sample trigger, grabador, procesador de efectos y looper en navegador con Web Audio API.
+    description_en: Sample trigger, recorder, effects processor and looper in the browser with Web Audio API.
     repo: https://github.com/vlasvlasvlas/botonera
     demo: https://vlasvlasvlas.github.io/botonera/
-    tags: [web, sampler, audio]
+    image: imgs/botonera.png
 
-  - slug: nighttowers
-    title: NightTowers
-    section: core
-    kind: Experimento
+  - title: NightTowers
     description: Nueve torres y nueve estrellas forman una red laser guiada por sintesis electroacustica.
+    description_en: Nine towers and nine stars form a laser network guided by electroacoustic synthesis.
     repo: https://github.com/vlasvlasvlas/nighttowers
     demo: https://vlasvlasvlas.github.io/nighttowers/
-    image: https://raw.githubusercontent.com/vlasvlasvlas/nighttowers/main/bg.jpg
-    tags: [web, generativo, audio]
+    image: imgs/nighttowers.png
 
-  - slug: text2wind
-    title: Text2Wind
-    section: core
-    kind: Experiencia
+  - title: Text2Wind
     description: El texto se convierte en viento, sonido y silencio con tipografia viva, cielo procedural y capas sonoras.
+    description_en: Text becomes wind, sound and silence with living typography, procedural sky and sonic layers.
     repo: https://github.com/vlasvlasvlas/text2wind
     demo: https://vlasvlasvlas.github.io/text2wind/
-    image: https://raw.githubusercontent.com/vlasvlasvlas/text2wind/main/screenshot.png
-    tags: [web, texto, audio]
+    image: imgs/text2wind.png
 
-  - slug: synthclock
-    title: SynthClock
-    section: core
-    kind: Instrumento
+  - title: SynthClock
     description: Instrumento musical generativo basado en el Tone Clock, donde el tiempo produce notas y visuales.
+    description_en: Generative musical instrument based on the Tone Clock, where time produces notes and visuals.
     repo: https://github.com/vlasvlasvlas/synthclock
     demo: https://vlasvlasvlas.github.io/synthclock/
-    image: https://raw.githubusercontent.com/vlasvlasvlas/synthclock/main/app/public/screenshot.png
-    tags: [web, reloj, audio]
+    image: imgs/synthclock.png
 
-  - slug: drawdron
-    title: DrawDron
-    section: core
-    kind: Instrumento
+  - title: DrawDron
     description: Instrumento generativo de drones donde dibujar en canvas produce musica y visuales fractales.
+    description_en: Generative drone instrument where drawing on canvas produces music and fractal visuals.
     repo: https://github.com/vlasvlasvlas/drawdron
-    image: https://raw.githubusercontent.com/vlasvlasvlas/drawdron/main/screenshot.jpeg
-    tags: [canvas, drones, audio]
+    image: imgs/drawdron.png
 
-  - slug: botovejero
-    title: Botovejero
-    section: core
-    kind: VJ tool
+  - title: Botovejero
     description: Sampler audiovisual web sobre una playlist de ropavejeros, con pads, efectos y modulacion en vivo.
+    description_en: Web audiovisual sampler over a street vendor playlist, with pads, effects and live modulation.
     repo: https://github.com/vlasvlasvlas/botovejero
     demo: https://vlasvlasvlas.github.io/botovejero/
-    tags: [web, sampler, video]
+    image: imgs/botovejero.png
 
-  - slug: therescreen
-    title: Therescreen
-    section: related
-    kind: Hardware
+  - title: Therescreen
     description: Instrumento tipo theremin para Mac que usa apertura y cierre de tapa como control continuo de pitch.
+    description_en: Theremin-like instrument for Mac that uses lid opening and closing as continuous pitch control.
     repo: https://github.com/vlasvlasvlas/therescreen
-    tags: [mac, hardware, audio]
+    image: imgs/therescreen.png
 
-  - slug: itoshima_sound
-    title: Itoshima Sound
-    section: related
-    kind: Pieza sonora
+  - title: Itoshima Sound
     description: Pieza web sonora sobre paisajes rurales, ritmos cotidianos y sonidos de Itoshima.
+    description_en: Web sound piece about rural landscapes, daily rhythms and sounds of Itoshima.
     repo: https://github.com/vlasvlasvlas/itoshima_sound
-    image: https://raw.githubusercontent.com/vlasvlasvlas/itoshima_sound/main/images/headerrepo.jpg
-    tags: [web, paisaje, audio]
+    image: imgs/itoshima_sound.png
 
-  - slug: ytbmusic
-    title: YTBMusic
-    section: related
-    kind: Terminal
+  - title: YTBMusic
     description: Reproductor terminal de YouTube Music con playlists, skins ASCII, descarga, streaming y buffering.
+    description_en: Terminal YouTube Music player with playlists, ASCII skins, download, streaming and buffering.
     repo: https://github.com/vlasvlasvlas/ytbmusic
-    image: https://raw.githubusercontent.com/vlasvlasvlas/ytbmusic/main/screenshot.png
-    tags: [terminal, musica, ascii]
+    image: imgs/ytbmusic.png
 
-  - slug: rollitojuegos
-    title: Rollito Juegos
-    section: related
-    kind: Fanzine
+  - title: Rollito Juegos
     description: Fanzine web de software termico y juegos, publicado como experiencia navegable.
+    description_en: Web fanzine of thermal software and games, published as a navigable experience.
     repo: https://github.com/vlasvlasvlas/rollitojuegos
     demo: https://vlasvlasvlas.github.io/rollitojuegos/
-    tags: [web, fanzine, juegos]
+    image: imgs/rollitojuegos.png
 
-  - slug: colormic
-    title: Colormic
-    section: related
-    kind: Experimento
+  - title: Colormic
     description: Interfaz web compacta para experimentar con color, sonido y captura en navegador.
+    description_en: Compact web interface to experiment with color, sound and capture in the browser.
     repo: https://github.com/vlasvlasvlas/colormic
     demo: https://vlasvlasvlas.github.io/colormic/
-    tags: [web, color, audio]
+    image: imgs/colormic.png
