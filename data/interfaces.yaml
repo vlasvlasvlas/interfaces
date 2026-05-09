@@ -134,3 +134,16 @@ projects:
     repo: https://github.com/vlasvlasvlas/colormic
     demo: https://vlasvlasvlas.github.io/colormic/
     image: imgs/colormic.png
+
+  - title: SpankSynth
+    description: Sintetizador web con interfaz de nalgadas donde el golpe controla el sonido.
+    description_en: Web synthesizer with a spanking interface where the hit controls the sound.
+    repo: https://github.com/vlasvlasvlas/spanksynth
+    demo: https://vlasvlasvlas.github.io/spanksynth/
+    image: imgs/spanksynth.png
+
+  - title: Theremac
+    description: Theremin virtual para Mac controlado por el angulo de apertura de la tapa del laptop.
+    description_en: Virtual theremin for Mac controlled by the laptop lid opening angle.
+    repo: https://github.com/vlasvlasvlas/theremac
+    image: imgs/theremac.png

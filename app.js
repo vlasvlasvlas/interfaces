@@ -55,7 +55,7 @@ function switchLang() {
   if (sub) {
     var link = '<a href="https://github.com/vlasvlasvlas">vlasvlasvlas</a>';
     sub.innerHTML = lang === "en"
-      ? "by " + link + " · visual, sonic and interactive interfaces"
+      ? "by " + link + " · visual, sound and interactive interfaces"
       : "por " + link + " · interfaces visuales, sonoras e interactivas";
   }
   if (foot) {
