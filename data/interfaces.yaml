@@ -1,4 +1,11 @@
 projects:
+  - title: AstroSynth
+    description: Secuenciador orbital inspirado en un orrery, donde el movimiento de los planetas genera eventos sonoros.
+    description_en: Orbital sequencer inspired by an orrery, where the movement of the planets generates sonic events.
+    repo: https://github.com/vlasvlasvlas/astrosynth
+    demo: https://vlasvlasvlas.github.io/astrosynth/
+    image: imgs/astrosynth.png
+
   - title: ShellSynth
     description: Instrumento web donde la forma dibujada funciona como timbre y gesto sonoro.
     description_en: Web instrument where the drawn shape works as timbre and sonic gesture.
