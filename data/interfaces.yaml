@@ -113,7 +113,7 @@ projects:
     description: Pieza web sonora sobre paisajes rurales, ritmos cotidianos y sonidos de Itoshima.
     description_en: Web sound piece about rural landscapes, daily rhythms and sounds of Itoshima.
     repo: https://github.com/vlasvlasvlas/itoshima_sound
-    image: imgs/itoshima_sound.png
+    image: imgs/itoshima_sound.jpg
 
   - title: YTBMusic
     description: Reproductor terminal de YouTube Music con playlists, skins ASCII, descarga, streaming y buffering.
