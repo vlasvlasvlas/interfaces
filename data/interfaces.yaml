@@ -119,7 +119,7 @@ projects:
     description: Reproductor terminal de YouTube Music con playlists, skins ASCII, descarga, streaming y buffering.
     description_en: Terminal YouTube Music player with playlists, ASCII skins, download, streaming and buffering.
     repo: https://github.com/vlasvlasvlas/ytbmusic
-    image: imgs/ytbmusic.png
+    image: imgs/ytbmusic.jpg
 
   - title: Rollito Juegos
     description: Fanzine web de software termico y juegos, publicado como experiencia navegable.
