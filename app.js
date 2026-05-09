@@ -12,6 +12,7 @@ async function init() {
     var data = jsyaml.load(await res.text());
     allProjects = Array.isArray(data.projects) ? data.projects : [];
     render();
+    await sortByLastCommit();
   } catch (e) {
     container.textContent = "error: " + e.message;
   }
@@ -44,28 +45,57 @@ function render() {
   }).join("");
 }
 
+async function sortByLastCommit() {
+  var fetches = allProjects.map(function (p) {
+    var repoPath = extractRepoPath(p.repo);
+    if (!repoPath) return Promise.resolve(null);
+    return fetch(
+      "https://api.github.com/repos/" + repoPath + "/commits?per_page=1",
+      { headers: { Accept: "application/vnd.github.v3+json" } }
+    )
+      .then(function (r) { return r.ok ? r.json() : []; })
+      .then(function (commits) {
+        if (commits.length > 0) {
+          p._lastCommit = commits[0].commit.committer.date;
+        }
+      })
+      .catch(function () {});
+  });
+
+  await Promise.all(fetches);
+
+  allProjects.sort(function (a, b) {
+    var da = a._lastCommit || "1970-01-01";
+    var db = b._lastCommit || "1970-01-01";
+    return db.localeCompare(da);
+  });
+
+  render();
+}
+
 function switchLang() {
   lang = lang === "es" ? "en" : "es";
   langBtn.textContent = lang === "es" ? "EN" : "ES";
   document.documentElement.lang = lang;
 
-  // update static text
   var sub = document.querySelector(".sub");
-  var foot = document.querySelector(".foot");
   if (sub) {
     var link = '<a href="https://github.com/vlasvlasvlas">vlasvlasvlas</a>';
     sub.innerHTML = lang === "en"
       ? "by " + link + " · visual, sound and interactive interfaces"
       : "por " + link + " · interfaces visuales, sonoras e interactivas";
   }
-  if (foot) {
-    foot.innerHTML = (lang === "en" ? "source: " : "fuente: ") + '<a href="data/interfaces.yaml">interfaces.yaml</a>';
-  }
 
   render();
 }
 
 langBtn.addEventListener("click", switchLang);
+
+function extractRepoPath(url) {
+  if (!url) return null;
+  var m = url.match(/github\.com\/([^/]+\/[^/]+)/);
+  return m ? m[1] : null;
+}
 
 function esc(s) {
   if (!s) return "";
