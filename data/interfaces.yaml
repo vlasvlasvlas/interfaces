@@ -88,13 +88,13 @@ projects:
     description_en: Generative musical instrument based on the Tone Clock, where time produces notes and visuals.
     repo: https://github.com/vlasvlasvlas/synthclock
     demo: https://vlasvlasvlas.github.io/synthclock/
-    image: imgs/synthclock.png
+    image: imgs/synthclock.jpg
 
   - title: DrawDron
     description: Instrumento generativo de drones donde dibujar en canvas produce musica y visuales fractales.
     description_en: Generative drone instrument where drawing on canvas produces music and fractal visuals.
     repo: https://github.com/vlasvlasvlas/drawdron
-    image: imgs/drawdron.png
+    image: imgs/drawdron.jpg
 
   - title: Botovejero
     description: Sampler audiovisual web sobre una playlist de ropavejeros, con pads, efectos y modulacion en vivo.
