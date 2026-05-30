@@ -1,4 +1,49 @@
 projects:
+  - title: Fractal Synth
+    description: Sintetizador generativo web basado en Chaos Game, donde vertices geometricos disparan notas, fractales y efectos en tiempo real.
+    description_en: Generative web synth based on the Chaos Game, where geometric vertices trigger notes, fractals and real-time effects.
+    repo: https://github.com/vlasvlasvlas/fractalsynth
+    demo: https://vlasvlasvlas.github.io/fractalsynth/
+    image: imgs/fractalsynth.png
+
+  - title: Text2Synth
+    description: Sintetizador retro de texto a voz con interfaz tipo terminal, backend Flask y motor Web Audio multipista.
+    description_en: Retro text-to-voice synthesizer with a terminal-style interface, Flask backend and multichannel Web Audio engine.
+    repo: https://github.com/vlasvlasvlas/text2synth
+    image: imgs/text2synth.png
+
+  - title: CitySynth
+    description: Secuenciador audiovisual generativo en arte ASCII, con edificios-canal, barridos, clima y audio chiptune.
+    description_en: Generative audiovisual sequencer in ASCII art, with building-channels, sweeps, weather and chiptune audio.
+    repo: https://github.com/vlasvlasvlas/citysynth
+    demo: https://vlasvlasvlas.github.io/citysynth/
+    image: imgs/citysynth.png
+
+  - title: VOZ-A-COSA
+    description: Interfaz web que convierte voz cantada, tarareada o silbada en MIDI, sintesis e instrumentos exportables.
+    description_en: Web interface that turns sung, hummed or whistled voice into MIDI, synthesis and exportable instruments.
+    repo: https://github.com/vlasvlasvlas/vozacosa
+    image: imgs/vozacosa.png
+
+  - title: Cupdance
+    description: Interfaz coreografica con vision computacional que convierte movimiento corporal y rotacion de vasos en paisaje audiovisual.
+    description_en: Choreographic computer-vision interface that turns body movement and cup rotation into an audiovisual soundscape.
+    repo: https://github.com/vlasvlasvlas/cupdance
+    image: imgs/cupdance.png
+
+  - title: ChessDrum
+    description: Secuenciador de bateria donde un tablero de ajedrez fisico o virtual controla patrones, mixer, filtros y MIDI.
+    description_en: Drum sequencer where a physical or virtual chessboard controls patterns, mixer, filters and MIDI.
+    repo: https://github.com/vlasvlasvlas/chessdrum
+    image: imgs/chessdrum.png
+
+  - title: Therecam
+    description: Theremin por webcam con deteccion de manos, antenas virtuales, control de pitch, volumen, vibrato y delay.
+    description_en: Webcam theremin with hand detection, virtual antennas, pitch, volume, vibrato and delay control.
+    repo: https://github.com/vlasvlasvlas/therecam
+    demo: https://youtu.be/lhVT2A8Nzn8
+    image: imgs/therecam.png
+
   - title: AstroSynth
     description: Secuenciador orbital inspirado en un orrery, donde el movimiento de los planetas genera eventos sonoros.
     description_en: Orbital sequencer inspired by an orrery, where the movement of the planets generates sonic events.
