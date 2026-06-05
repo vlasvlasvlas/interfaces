@@ -1,17 +1,17 @@
 projects:
-  - title: Osciverde Synth
+  - title: Verdysynth
     description: Instrumento de audio vectorial para navegador. Genera formas de onda XY simulando un osciloscopio CRT.
     description_en: Vector audio instrument for browser. Generates XY waveforms simulating a CRT oscilloscope.
-    repo: https://github.com/vlasvlasvlas/osciverdesnyth
-    demo: https://vlasvlasvlas.github.io/osciverdesnyth/
-    image: imgs/osciverdesynth.png
+    repo: https://github.com/vlasvlasvlas/verdysynth
+    demo: https://vlasvlasvlas.github.io/verdysynth/
+    image: imgs/verdysynth.png
 
-  - title: In C / Mundo Real
+  - title: Incysynth
     description: Aplicacion web interactiva que interpreta "In C" de Terry Riley utilizando datos en tiempo real de APIs publicas.
     description_en: Interactive web app that interprets Terry Riley's "In C" using real-time data from public APIs.
-    repo: https://github.com/vlasvlasvlas/incsynth
-    demo: https://vlasvlasvlas.github.io/incsynth/
-    image: imgs/incsynth.png
+    repo: https://github.com/vlasvlasvlas/incysynth
+    demo: https://vlasvlasvlas.github.io/incysynth/
+    image: imgs/incysynth.png
 
   - title: Fractal Synth
     description: Sintetizador generativo web basado en Chaos Game, donde vertices geometricos disparan notas, fractales y efectos en tiempo real.
