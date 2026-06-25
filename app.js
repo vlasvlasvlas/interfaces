@@ -161,12 +161,15 @@ function loadEmbed(p) {
   document.getElementById("modal-activate-overlay").addEventListener("click", function () {
     this.style.display = "none";
   });
+
+  modalMedia.closest(".modal").classList.add("embed-mode");
 }
 
 function closeModal() {
   modalOverlay.classList.remove("open");
   document.body.style.overflow = "";
   modalMedia.innerHTML = "";
+  modalMedia.closest(".modal").classList.remove("embed-mode");
   currentProject = null;
 }
 
