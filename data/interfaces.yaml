@@ -5,6 +5,7 @@ projects:
     repo: https://github.com/vlasvlasvlas/verdysynth
     demo: https://vlasvlasvlas.github.io/verdysynth/
     image: imgs/verdysynth.png
+    tags: [sintetizador, visual]
 
   - title: Incysynth
     description: Aplicacion web interactiva que interpreta "In C" de Terry Riley utilizando datos en tiempo real de APIs publicas.
@@ -12,6 +13,7 @@ projects:
     repo: https://github.com/vlasvlasvlas/incysynth
     demo: https://vlasvlasvlas.github.io/incysynth/
     image: imgs/incysynth.png
+    tags: [generativo, sintetizador]
 
   - title: Fractal Synth
     description: Sintetizador generativo web basado en Chaos Game, donde vertices geometricos disparan notas, fractales y efectos en tiempo real.
@@ -19,12 +21,14 @@ projects:
     repo: https://github.com/vlasvlasvlas/fractalsynth
     demo: https://vlasvlasvlas.github.io/fractalsynth/
     image: imgs/fractalsynth.png
+    tags: [generativo, visual]
 
   - title: Text2Synth
     description: Sintetizador retro de texto a voz con interfaz tipo terminal, backend Flask y motor Web Audio multipista.
     description_en: Retro text-to-voice synthesizer with a terminal-style interface, Flask backend and multichannel Web Audio engine.
     repo: https://github.com/vlasvlasvlas/text2synth
     image: imgs/text2synth.png
+    tags: [sintetizador]
 
   - title: CitySynth
     description: Secuenciador audiovisual generativo en arte ASCII, con edificios-canal, barridos, clima y audio chiptune.
@@ -32,24 +36,28 @@ projects:
     repo: https://github.com/vlasvlasvlas/citysynth
     demo: https://vlasvlasvlas.github.io/citysynth/
     image: imgs/citysynth.png
+    tags: [generativo, visual]
 
   - title: VOZ-A-COSA
     description: Interfaz web que convierte voz cantada, tarareada o silbada en MIDI, sintesis e instrumentos exportables.
     description_en: Web interface that turns sung, hummed or whistled voice into MIDI, synthesis and exportable instruments.
     repo: https://github.com/vlasvlasvlas/vozacosa
     image: imgs/vozacosa.png
+    tags: [cuerpo, sintetizador]
 
   - title: Cupdance
     description: Interfaz coreografica con vision computacional que convierte movimiento corporal y rotacion de vasos en paisaje audiovisual.
     description_en: Choreographic computer-vision interface that turns body movement and cup rotation into an audiovisual soundscape.
     repo: https://github.com/vlasvlasvlas/cupdance
     image: imgs/cupdance.png
+    tags: [cuerpo, visual]
 
   - title: ChessDrum
     description: Secuenciador de bateria donde un tablero de ajedrez fisico o virtual controla patrones, mixer, filtros y MIDI.
     description_en: Drum sequencer where a physical or virtual chessboard controls patterns, mixer, filters and MIDI.
     repo: https://github.com/vlasvlasvlas/chessdrum
     image: imgs/chessdrum.png
+    tags: [percusion]
 
   - title: Therecam
     description: Theremin por webcam con deteccion de manos, antenas virtuales, control de pitch, volumen, vibrato y delay.
@@ -57,6 +65,7 @@ projects:
     repo: https://github.com/vlasvlasvlas/therecam
     demo: https://youtu.be/lhVT2A8Nzn8
     image: imgs/therecam.png
+    tags: [theremin, cuerpo]
 
   - title: AstroSynth
     description: Secuenciador orbital inspirado en un orrery, donde el movimiento de los planetas genera eventos sonoros.
@@ -64,6 +73,7 @@ projects:
     repo: https://github.com/vlasvlasvlas/astrosynth
     demo: https://vlasvlasvlas.github.io/astrosynth/
     image: imgs/astrosynth.png
+    tags: [generativo, sintetizador]
 
   - title: ShellSynth
     description: Instrumento web donde la forma dibujada funciona como timbre y gesto sonoro.
@@ -71,6 +81,7 @@ projects:
     repo: https://github.com/vlasvlasvlas/shellsynth
     demo: https://vlasvlasvlas.github.io/shellsynth/
     image: imgs/shellsynth.png
+    tags: [sintetizador, visual]
 
   - title: PixelSynth
     description: Pixel art musical y emulador interactivo de creacion sonora random.
@@ -78,6 +89,7 @@ projects:
     repo: https://github.com/vlasvlasvlas/pixelsynth
     demo: https://vlasvlasvlas.github.io/pixelsynth/
     image: imgs/pixelsynth.png
+    tags: [sintetizador, visual]
 
   - title: DVDLogoSynth
     description: Logos DVD rebotando como voces visuales y sonoras con color, trayectoria, timbre y drone.
@@ -85,6 +97,7 @@ projects:
     repo: https://github.com/vlasvlasvlas/dvdlogosynth
     demo: https://vlasvlasvlas.github.io/dvdlogosynth/
     image: imgs/dvdlogosynth.png
+    tags: [generativo, visual]
 
   - title: ZenonSynth
     description: Instrumento audiovisual basado en la paradoja de Zenon, convergencia asintotica y sintesis modular.
@@ -92,6 +105,7 @@ projects:
     repo: https://github.com/vlasvlasvlas/zenonsynth
     demo: https://vlasvlasvlas.github.io/zenonsynth/
     image: imgs/zenonsynth.png
+    tags: [sintetizador, visual]
 
   - title: WeatherSynth
     description: Instrumento atmosferico que convierte clima, viento, lluvia, humedad y hora en escena visual-sonora.
@@ -99,6 +113,7 @@ projects:
     repo: https://github.com/vlasvlasvlas/weathersynth
     demo: https://vlasvlasvlas.github.io/weathersynth/
     image: imgs/weathersynth.png
+    tags: [generativo, sintetizador]
 
   - title: Morsimon
     description: Juego interactivo que cruza codigo Morse con la logica del clasico Simon.
@@ -106,6 +121,7 @@ projects:
     repo: https://github.com/vlasvlasvlas/morsimon
     demo: https://vlasvlasvlas.github.io/morsimon/
     image: imgs/morsimon.png
+    tags: [juego]
 
   - title: Araria
     description: Animacion interactiva con movimiento procedural y audio de horror generado en navegador.
@@ -113,6 +129,7 @@ projects:
     repo: https://github.com/vlasvlasvlas/araria
     demo: https://vlasvlasvlas.github.io/araria/
     image: imgs/araria.png
+    tags: [generativo, visual]
 
   - title: Estrellados
     description: Cielo visible en tiempo real convertido en partitura performativa con arpegios, drones y estrellas seleccionables.
@@ -120,6 +137,7 @@ projects:
     repo: https://github.com/vlasvlasvlas/estrellados
     demo: https://vlasvlasvlas.github.io/estrellados/
     image: imgs/estrellados.png
+    tags: [generativo, sintetizador]
 
   - title: Trenfase
     description: Secuenciador audiovisual interactivo inspirado en la Yamanote Line de Tokio.
@@ -127,6 +145,7 @@ projects:
     repo: https://github.com/vlasvlasvlas/trenfase
     demo: https://vlasvlasvlas.github.io/trenfase/
     image: imgs/trenfase.jpg
+    tags: [generativo, visual]
 
   - title: Botonera
     description: Sample trigger, grabador, procesador de efectos y looper en navegador con Web Audio API.
@@ -134,6 +153,7 @@ projects:
     repo: https://github.com/vlasvlasvlas/botonera
     demo: https://vlasvlasvlas.github.io/botonera/
     image: imgs/botonera.png
+    tags: [sampler]
 
   - title: NightTowers
     description: Nueve torres y nueve estrellas forman una red laser guiada por sintesis electroacustica.
@@ -141,6 +161,7 @@ projects:
     repo: https://github.com/vlasvlasvlas/nighttowers
     demo: https://vlasvlasvlas.github.io/nighttowers/
     image: imgs/nighttowers.png
+    tags: [sintetizador, visual]
 
   - title: Text2Wind
     description: El texto se convierte en viento, sonido y silencio con tipografia viva, cielo procedural y capas sonoras.
@@ -148,6 +169,7 @@ projects:
     repo: https://github.com/vlasvlasvlas/text2wind
     demo: https://vlasvlasvlas.github.io/text2wind/
     image: imgs/text2wind.png
+    tags: [generativo, visual]
 
   - title: SynthClock
     description: Instrumento musical generativo basado en el Tone Clock, donde el tiempo produce notas y visuales.
@@ -155,12 +177,14 @@ projects:
     repo: https://github.com/vlasvlasvlas/synthclock
     demo: https://vlasvlasvlas.github.io/synthclock/
     image: imgs/synthclock.jpg
+    tags: [generativo, sintetizador]
 
   - title: DrawDron
     description: Instrumento generativo de drones donde dibujar en canvas produce musica y visuales fractales.
     description_en: Generative drone instrument where drawing on canvas produces music and fractal visuals.
     repo: https://github.com/vlasvlasvlas/drawdron
     image: imgs/drawdron.jpg
+    tags: [sintetizador, visual]
 
   - title: Botovejero
     description: Sampler audiovisual web sobre una playlist de ropavejeros, con pads, efectos y modulacion en vivo.
@@ -168,12 +192,14 @@ projects:
     repo: https://github.com/vlasvlasvlas/botovejero
     demo: https://vlasvlasvlas.github.io/botovejero/
     image: imgs/botovejero.png
+    tags: [sampler, visual]
 
   - title: Therescreen
     description: Instrumento tipo theremin para Mac que usa apertura y cierre de tapa como control continuo de pitch.
     description_en: Theremin-like instrument for Mac that uses lid opening and closing as continuous pitch control.
     repo: https://github.com/vlasvlasvlas/therescreen
     image: imgs/therescreen.png
+    tags: [theremin]
 
   - title: Itoshima Sound
     description: Pieza web sonora sobre paisajes rurales, ritmos cotidianos y sonidos de Itoshima.
@@ -181,12 +207,14 @@ projects:
     repo: https://github.com/vlasvlasvlas/itoshima_sound
     demo: https://vlasvlasvlas.github.io/itoshima_sound/
     image: imgs/itoshima_sound.jpg
+    tags: [generativo, visual]
 
   - title: YTBMusic
     description: Reproductor terminal de YouTube Music con playlists, skins ASCII, descarga, streaming y buffering.
     description_en: Terminal YouTube Music player with playlists, ASCII skins, download, streaming and buffering.
     repo: https://github.com/vlasvlasvlas/ytbmusic
     image: imgs/ytbmusic.jpg
+    tags: [sampler]
 
   - title: Rollito Juegos
     description: Fanzine web de software termico y juegos, publicado como experiencia navegable.
@@ -194,6 +222,7 @@ projects:
     repo: https://github.com/vlasvlasvlas/rollitojuegos
     demo: https://vlasvlasvlas.github.io/rollitojuegos/
     image: imgs/rollitojuegos.png
+    tags: [juego, visual]
 
   - title: Colormic
     description: Interfaz web compacta para experimentar con color, sonido y captura en navegador.
@@ -201,6 +230,7 @@ projects:
     repo: https://github.com/vlasvlasvlas/colormic
     demo: https://vlasvlasvlas.github.io/colormic/
     image: imgs/colormic.png
+    tags: [cuerpo, visual]
 
   - title: SpankSynth
     description: Sintetizador web con interfaz de nalgadas donde el golpe controla el sonido.
@@ -208,9 +238,11 @@ projects:
     repo: https://github.com/vlasvlasvlas/spank
     demo: https://vlasvlasvlas.github.io/spank/
     image: imgs/spank.png
+    tags: [sintetizador, cuerpo]
 
   - title: Theremac
     description: Theremin virtual para Mac controlado por el angulo de apertura de la tapa del laptop.
     description_en: Virtual theremin for Mac controlled by the laptop lid opening angle.
     repo: https://github.com/vlasvlasvlas/theremac
     image: imgs/theremac.png
+    tags: [theremin]
