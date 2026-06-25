@@ -246,3 +246,47 @@ projects:
     repo: https://github.com/vlasvlasvlas/theremac
     image: imgs/theremac.png
     tags: [theremin]
+
+  - title: RubikSynth
+    description: Cubos de Rubik 2D que se resuelven solos generando musica en tiempo real.
+    description_en: Self-solving 2D Rubik cubes that generate music in real time.
+    repo: https://github.com/vlasvlasvlas/rubiksynth
+    demo: https://vlasvlasvlas.github.io/rubiksynth/
+    image: imgs/rubiksynth.png
+    tags: [generativo, visual]
+
+  - title: BriSynth
+    description: Instrumento musical interactivo. Cuerdas de yute tensadas entre rejas de un balcon de ciudad generan sonido.
+    description_en: Interactive musical instrument. Jute strings stretched across iron balcony railings generate sound.
+    repo: https://github.com/vlasvlasvlas/brisynth
+    demo: https://vlasvlasvlas.github.io/brisynth/
+    image: imgs/brisynth.png
+    tags: [sintetizador, visual]
+
+  - title: Triomino Generator
+    description: Generador automatico de piezas y tableros para el juego de triominos.
+    description_en: Automatic piece and board generator for the triomino game.
+    repo: https://github.com/vlasvlasvlas/triomino-generator
+    image: imgs/triomino-generator.png
+    tags: [juego, generativo]
+
+  - title: TostaTetris
+    description: Tetris colaborativo controlado con una tostadora hackeada como interfaz fisica.
+    description_en: Collaborative Tetris controlled with a hacked toaster as a physical interface.
+    repo: https://github.com/vlasvlasvlas/tostatetris
+    image: imgs/tostatetris.png
+    tags: [juego, cuerpo]
+
+  - title: Motion Deja Vu
+    description: Maquina de loops de animacion slit construida con hardware Lego hackeado y Kotlin.
+    description_en: Slit animation loop machine built with hacked Lego hardware and Kotlin.
+    repo: https://github.com/vlasvlasvlas/motion-deja-vu
+    image: imgs/motion-deja-vu.jpg
+    tags: [visual, cuerpo]
+
+  - title: 3dPlotMyCamera
+    description: Renderiza en tiempo real la imagen de la webcam como grafico de area 3D.
+    description_en: Renders the live webcam image as a real-time 3D area chart.
+    repo: https://github.com/vlasvlasvlas/3dPlotMyCamera
+    image: imgs/3dploymycamera.png
+    tags: [visual, cuerpo]

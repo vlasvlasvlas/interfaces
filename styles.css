@@ -247,6 +247,14 @@ hr {
   flex-direction: column;
   position: relative;
   overflow: hidden;
+  transition: max-width 0.2s, max-height 0.2s;
+}
+
+.modal.embed-mode {
+  max-width: 98vw;
+  width: 98vw;
+  max-height: 96vh;
+  height: 96vh;
 }
 
 .modal-close {
@@ -277,6 +285,11 @@ hr {
   height: clamp(220px, 42vh, 420px);
   flex-shrink: 0;
   overflow: hidden;
+}
+
+.modal.embed-mode .modal-media {
+  flex: 1;
+  height: auto;
 }
 
 .modal-media img {
