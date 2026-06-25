@@ -17,3 +17,6 @@ python3 -m http.server 4173
 ```
 
 Luego abrir `http://localhost:4173`.
+## License
+
+MIT License — © 2026 [Vladimiro Bellini](https://github.com/vlasvlasvlas). Free to use and modify, attribution required.
