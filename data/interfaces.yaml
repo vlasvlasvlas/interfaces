@@ -1,4 +1,12 @@
 projects:
+  - title: GraveSynth
+    description: Sintetizador modular experimental de navegador donde gravedad, colisiones y rebotes componen desde una partitura fisica dibujada.
+    description_en: Experimental modular browser synthesizer where gravity, collisions and rebounds compose from a drawn physical score.
+    repo: https://github.com/vlasvlasvlas/gravesynth
+    demo: https://vlasvlasvlas.github.io/gravesynth/
+    image: imgs/gravesynth.png
+    tags: [generativo, sintetizador]
+
   - title: DonSaturSynth
     description: Sintetizador web interactivo con interfaz de bizcochos Don Satur en grilla hexagonal.
     description_en: Interactive web synthesizer with a hexagonal Don Satur biscuits interface.
