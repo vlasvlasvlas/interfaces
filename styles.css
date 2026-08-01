@@ -52,10 +52,27 @@ h1 {
   color: #222;
 }
 
-.sub {
-  font-size: 14px;
-  color: #666;
+.intro {
   margin-bottom: 14px;
+}
+
+.intro-declaration {
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.intro-context {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.65;
+  margin-bottom: 8px;
+}
+
+.intro-links {
+  font-size: 13px;
+  color: #888;
+  line-height: 1.6;
 }
 
 hr {

@@ -10,11 +10,32 @@ var modalTitle = document.getElementById("modal-title");
 var modalDesc = document.getElementById("modal-desc");
 var modalTagList = document.getElementById("modal-tags");
 var modalActions = document.getElementById("modal-actions");
+var introDeclaration = document.querySelector(".intro-declaration");
+var introContext = document.querySelector(".intro-context");
+var introLinks = document.querySelector(".intro-links");
 
 var lang = "es";
 var allProjects = [];
 var activeFilter = "todos";
 var currentProject = null;
+var currentCount = "—";
+
+function updateIntro() {
+  var ghLink = '<a href="https://github.com/vlasvlasvlas" target="_blank" rel="noreferrer">vlasvlasvlas</a>';
+  var igLink = '<a href="https://www.instagram.com/vlas.vlas.vlas" target="_blank" rel="noreferrer">instagram ↗</a>';
+  var gh2Link = '<a href="https://github.com/vlasvlasvlas" target="_blank" rel="noreferrer">github ↗</a>';
+  var posLink = '<a href="https://www.instagram.com/posnetes" target="_blank" rel="noreferrer">POSNETES ↗</a>';
+
+  if (lang === "en") {
+    introDeclaration.textContent = "An ongoing ecosystem of browser-based musical instruments.";
+    introContext.innerHTML = "Gestures, text, pixels, algorithms, weather, clocks — each instrument proposes a different interaction model as raw material for sound and image. <span id=\"instrument-count\">" + currentCount + "</span> works. No installation. Nothing but a browser.";
+    introLinks.innerHTML = "by " + ghLink + " \xb7 " + igLink + " \xb7 " + gh2Link + "<br>Also performed live within " + posLink;
+  } else {
+    introDeclaration.textContent = "Un ecosistema vivo de instrumentos musicales para navegador.";
+    introContext.innerHTML = "Gestos, texto, p\xedxeles, algoritmos, clima, relojes — cada instrumento propone un modelo de interacci\xf3n distinto como materia prima para sonido e imagen. <span id=\"instrument-count\">" + currentCount + "</span> obras. Sin instalaci\xf3n. Solo un navegador.";
+    introLinks.innerHTML = "por " + ghLink + " \xb7 " + igLink + " \xb7 " + gh2Link + "<br>Tambi\xe9n en performance en vivo dentro de " + posLink;
+  }
+}
 
 async function init() {
   try {
@@ -22,6 +43,8 @@ async function init() {
     if (!res.ok) throw new Error("HTTP " + res.status);
     var data = jsyaml.load(await res.text());
     allProjects = Array.isArray(data.projects) ? data.projects : [];
+    currentCount = allProjects.length;
+    updateIntro();
     renderFilters();
     render();
     sortByLastCommit();
@@ -212,14 +235,7 @@ function switchLang() {
   langBtn.textContent = lang === "es" ? "EN" : "ES";
   document.documentElement.lang = lang;
 
-  var sub = document.querySelector(".sub");
-  if (sub) {
-    var link = '<a href="https://github.com/vlasvlasvlas">vlasvlasvlas</a>';
-    sub.innerHTML = lang === "en"
-      ? "by " + link + " · visual, sound and interactive interfaces"
-      : "por " + link + " · interfaces visuales, sonoras e interactivas";
-  }
-
+  updateIntro();
   render();
 
   if (currentProject) {
