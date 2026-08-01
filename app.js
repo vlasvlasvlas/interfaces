@@ -25,15 +25,17 @@ function updateIntro() {
   var igLink = '<a href="https://www.instagram.com/vlas.vlas.vlas" target="_blank" rel="noreferrer">instagram ↗</a>';
   var gh2Link = '<a href="https://github.com/vlasvlasvlas" target="_blank" rel="noreferrer">github ↗</a>';
   var posLink = '<a href="https://www.instagram.com/posnetes" target="_blank" rel="noreferrer">POSNETES ↗</a>';
+  var v1Link = '<a href="videos/promo_interfaces_90s.mp4" target="_blank" rel="noreferrer">video 1 ↗</a>';
+  var v2Link = '<a href="videos/promo_interfaces_90s_v2.mp4" target="_blank" rel="noreferrer">video 2 ↗</a>';
 
   if (lang === "en") {
     introDeclaration.textContent = "An ongoing ecosystem of browser-based musical instruments.";
     introContext.innerHTML = "Gestures, text, pixels, algorithms, weather, clocks — each instrument proposes a different interaction model as raw material for sound and image. <span id=\"instrument-count\">" + currentCount + "</span> works. No installation. Nothing but a browser.";
-    introLinks.innerHTML = "by " + ghLink + " \xb7 " + igLink + " \xb7 " + gh2Link + "<br>Also performed live within " + posLink;
+    introLinks.innerHTML = "by " + ghLink + " \xb7 " + igLink + " \xb7 " + gh2Link + "<br>\ud83c\udfac promo reels: " + v1Link + " \xb7 " + v2Link + "<br>Also performed live within " + posLink;
   } else {
     introDeclaration.textContent = "Un ecosistema vivo de instrumentos musicales para navegador.";
     introContext.innerHTML = "Gestos, texto, p\xedxeles, algoritmos, clima, relojes — cada instrumento propone un modelo de interacci\xf3n distinto como materia prima para sonido e imagen. <span id=\"instrument-count\">" + currentCount + "</span> obras. Sin instalaci\xf3n. Solo un navegador.";
-    introLinks.innerHTML = "por " + ghLink + " \xb7 " + igLink + " \xb7 " + gh2Link + "<br>Tambi\xe9n en performance en vivo dentro de " + posLink;
+    introLinks.innerHTML = "por " + ghLink + " \xb7 " + igLink + " \xb7 " + gh2Link + "<br>\ud83c\udfac videos promocionales: " + v1Link + " \xb7 " + v2Link + "<br>Tambi\xe9n en performance en vivo dentro de " + posLink;
   }
 }
 
