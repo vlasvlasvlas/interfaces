@@ -311,6 +311,7 @@ projects:
     description: Instrumento web donde cada trazo dibujado en el canvas genera sonido segun el color, la forma y el recorrido del pincel.
     description_en: Web instrument where each stroke drawn on the canvas generates sound based on the color, shape and path of the brush.
     repo: https://github.com/vlasvlasvlas/dibusynth
+    demo: https://vlasvlasvlas.github.io/dibusynth/
     image: imgs/dibusynth.png
     tags: [sintetizador, visual]
 
@@ -318,6 +319,7 @@ projects:
     description: Instrumento web que interpreta partidas clasicas de ajedrez como composiciones electronicas generativas, donde cada pieza y zona del tablero define voz y registro.
     description_en: Web instrument that interprets classic chess games as generative electronic compositions, where each piece and board zone defines voice and register.
     repo: https://github.com/vlasvlasvlas/chessound
+    demo: https://vlasvlasvlas.github.io/chessound/
     image: imgs/chessound.png
     tags: [generativo, sintetizador]
 
@@ -325,5 +327,6 @@ projects:
     description: Secuenciador musical espacial interactivo donde la musica se distribuye en una pista virtual y el tempo lo define la velocidad del vehiculo que la recorre.
     description_en: Interactive spatial music sequencer where music is distributed on a virtual track and the tempo is set by the speed of the vehicle traversing it.
     repo: https://github.com/vlasvlasvlas/autosynth
+    demo: https://vlasvlasvlas.github.io/autosynth/
     image: imgs/autosynth.png
     tags: [generativo, sintetizador]
