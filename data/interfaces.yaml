@@ -306,3 +306,24 @@ projects:
     repo: https://github.com/vlasvlasvlas/3dPlotMyCamera
     image: imgs/3dploymycamera.png
     tags: [visual, cuerpo]
+
+  - title: DibuSynth
+    description: Instrumento web donde cada trazo dibujado en el canvas genera sonido segun el color, la forma y el recorrido del pincel.
+    description_en: Web instrument where each stroke drawn on the canvas generates sound based on the color, shape and path of the brush.
+    repo: https://github.com/vlasvlasvlas/dibusynth
+    image: imgs/dibusynth.png
+    tags: [sintetizador, visual]
+
+  - title: ChesSound
+    description: Instrumento web que interpreta partidas clasicas de ajedrez como composiciones electronicas generativas, donde cada pieza y zona del tablero define voz y registro.
+    description_en: Web instrument that interprets classic chess games as generative electronic compositions, where each piece and board zone defines voice and register.
+    repo: https://github.com/vlasvlasvlas/chessound
+    image: imgs/chessound.png
+    tags: [generativo, sintetizador]
+
+  - title: Autosynth
+    description: Secuenciador musical espacial interactivo donde la musica se distribuye en una pista virtual y el tempo lo define la velocidad del vehiculo que la recorre.
+    description_en: Interactive spatial music sequencer where music is distributed on a virtual track and the tempo is set by the speed of the vehicle traversing it.
+    repo: https://github.com/vlasvlasvlas/autosynth
+    image: imgs/autosynth.png
+    tags: [generativo, sintetizador]
