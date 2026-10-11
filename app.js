@@ -130,12 +130,6 @@ function render() {
   });
 }
 
-function isEmbeddable(p) {
-  if (!p.demo) return false;
-  if (p.demo.includes("youtu")) return false;
-  return true;
-}
-
 function openModal(p) {
   currentProject = p;
   var desc = lang === "en" ? (p.description_en || p.description) : p.description;
@@ -154,47 +148,24 @@ function openModal(p) {
     return '<span class="tag">' + esc(t) + '</span>';
   }).join('');
 
-  var embedLabel = lang === "en" ? "▶ play here" : "▶ probar aquí";
-  var openLabel  = lang === "en" ? "↗ open"      : "↗ abrir solo";
-  var repoLabel  = lang === "en" ? "⌗ code"      : "⌗ código";
+  var openLabel = lang === "en" ? "↗ open" : "↗ abrir";
+  var repoLabel = lang === "en" ? "⌗ code" : "⌗ código";
 
   var html = '';
-  if (isEmbeddable(p)) {
-    html += '<button class="btn btn-primary" id="modal-embed-btn">' + embedLabel + '</button>';
-    html += '<a class="btn btn-secondary" href="' + esc(p.demo) + '" target="_blank" rel="noreferrer">' + openLabel + '</a>';
-  } else if (p.demo) {
+  if (p.demo) {
     html += '<a class="btn btn-primary" href="' + esc(p.demo) + '" target="_blank" rel="noreferrer">' + openLabel + '</a>';
   }
   html += '<a class="btn btn-secondary" href="' + esc(p.repo) + '" target="_blank" rel="noreferrer">' + repoLabel + '</a>';
   modalActions.innerHTML = html;
 
-  var embedBtn = document.getElementById("modal-embed-btn");
-  if (embedBtn) {
-    embedBtn.addEventListener("click", function () { loadEmbed(p); });
-  }
-
   modalOverlay.classList.add("open");
   document.body.style.overflow = "hidden";
-}
-
-function loadEmbed(p) {
-  var activateLabel = lang === "en" ? "→ click to activate" : "→ click para activar";
-  modalMedia.innerHTML =
-    '<iframe src="' + esc(p.demo) + '" sandbox="allow-scripts allow-same-origin allow-forms allow-pointer-lock" allowfullscreen></iframe>' +
-    '<div class="modal-activate" id="modal-activate-overlay"><span>' + activateLabel + '</span></div>';
-
-  document.getElementById("modal-activate-overlay").addEventListener("click", function () {
-    this.style.display = "none";
-  });
-
-  modalMedia.closest(".modal").classList.add("embed-mode");
 }
 
 function closeModal() {
   modalOverlay.classList.remove("open");
   document.body.style.overflow = "";
   modalMedia.innerHTML = "";
-  modalMedia.closest(".modal").classList.remove("embed-mode");
   currentProject = null;
 }
 
