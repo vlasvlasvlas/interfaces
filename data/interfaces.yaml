@@ -62,11 +62,11 @@ projects:
     image: imgs/verdysynth.png
     tags: [sintetizador, visual]
 
-  - title: Incysynth
+  - title: Incsynth
     description: Aplicacion web interactiva que interpreta "In C" de Terry Riley utilizando datos en tiempo real de APIs publicas.
     description_en: Interactive web app that interprets Terry Riley's "In C" using real-time data from public APIs.
     repo: https://github.com/vlasvlasvlas/incsynth
-    demo: https://vlasvlasvlas.github.io/incysynth/
+    demo: https://vlasvlasvlas.github.io/incsynth/
     image: imgs/incsynth.png
     tags: [generativo, sintetizador]
 
