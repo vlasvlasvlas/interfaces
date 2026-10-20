@@ -13,6 +13,7 @@ var modalActions = document.getElementById("modal-actions");
 var introDeclaration = document.querySelector(".intro-declaration");
 var introContext = document.querySelector(".intro-context");
 var introLinks = document.querySelector(".intro-links");
+var licenseNotice = document.getElementById("license-notice");
 
 var lang = "es";
 var allProjects = [];
@@ -28,11 +29,16 @@ function updateIntro() {
   var v1Link = '<a href="videos/promo_interfaces_90s.mp4" target="_blank" rel="noreferrer">video 1 ↗</a>';
   var v2Link = '<a href="videos/promo_interfaces_90s_v2.mp4" target="_blank" rel="noreferrer">video 2 ↗</a>';
 
+  var authorLink = '<a href="https://github.com/vlasvlasvlas" target="_blank" rel="noreferrer">Vladimiro Bellini (vlasvlasvlas)</a>';
+  var licenseLink = '<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noreferrer">CC BY-SA 4.0 ↗</a>';
+
   if (lang === "en") {
+    licenseNotice.innerHTML = licenseLink + " — If you use, modify or redistribute any work from this collection, you must credit the author: " + authorLink + " and link to the original repository.";
     introDeclaration.textContent = "An ongoing ecosystem of browser-based musical instruments.";
     introContext.innerHTML = "Gestures, text, pixels, algorithms, weather, clocks — each instrument proposes a different interaction model as raw material for sound and image. <span id=\"instrument-count\">" + currentCount + "</span> works. No installation. Nothing but a browser.";
     introLinks.innerHTML = "by " + ghLink + " \xb7 " + igLink + " \xb7 " + gh2Link + "<br>\ud83c\udfac promo reels: " + v1Link + " \xb7 " + v2Link + "<br>Also performed live within " + posLink;
   } else {
+    licenseNotice.innerHTML = licenseLink + " — Si usás, modificás o distribuís cualquier obra de esta colecci\xf3n, deb\xe9s citar al autor: " + authorLink + " y enlazar al repositorio original.";
     introDeclaration.textContent = "Un ecosistema vivo de instrumentos musicales para navegador.";
     introContext.innerHTML = "Gestos, texto, p\xedxeles, algoritmos, clima, relojes — cada instrumento propone un modelo de interacci\xf3n distinto como materia prima para sonido e imagen. <span id=\"instrument-count\">" + currentCount + "</span> obras. Sin instalaci\xf3n. Solo un navegador.";
     introLinks.innerHTML = "por " + ghLink + " \xb7 " + igLink + " \xb7 " + gh2Link + "<br>\ud83c\udfac videos promocionales: " + v1Link + " \xb7 " + v2Link + "<br>Tambi\xe9n en performance en vivo dentro de " + posLink;
